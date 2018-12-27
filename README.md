@@ -11,3 +11,4 @@ Technologies and Tools used in project:
 References:
   - http://www.mkyong.com
   - https://jersey.github.io/
+  - https://github.com/mustafaergan/Java-19-WebServis
