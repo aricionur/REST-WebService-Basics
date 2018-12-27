@@ -6,6 +6,7 @@ Technologies and Tools used in project:
 - Maven
 - Tomcat 9.0
 - Jersey 1.8
+- Progress Telerik Fiddler Web Debugger
 
 References:
   - http://www.mkyong.com
