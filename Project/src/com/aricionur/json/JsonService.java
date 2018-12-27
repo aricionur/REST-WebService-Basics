@@ -40,7 +40,5 @@ public class JsonService {
 						" surname : " + person.getSurname();
 		
 		return Response.status(200).entity(result).build();
-	}
-	
-	
+	}	
 }

@@ -10,10 +10,24 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+	  <context-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:ApplicationContext.xml</param-value>
+	  </context-param>
+
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+  
+  
   <servlet>
 		<servlet-name>jersey-serlvet</servlet-name>
 		<servlet-class>
-                     com.sun.jersey.spi.container.servlet.ServletContainer
+             		com.sun.jersey.spi.container.servlet.ServletContainer
+<!--              		use that SpringServlet class for Jersey-Spring integration -->
+<!--              		com.sun.jersey.spi.spring.container.servlet.SpringServlet -->
         </servlet-class>
         
 		<init-param>
